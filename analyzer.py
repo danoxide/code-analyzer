@@ -8,8 +8,7 @@ exts = ('cpp', 'h', 'py')
 lines = 0
 for root, dirnames, filenames in os.walk(os.path.dirname(os.path.abspath(__file__))):
 	for filename in filenames:
-		if filename.endswith(exts):
-			with open('/'.join([root, filename])) as foo:
-				lines += len(foo.readlines());
+		if filename.endswith(exts) and filename != sys.argv[0]:
+			lines += len(open('/'.join([root, filename])).readlines());
 
 print "Linii kodu:", lines
