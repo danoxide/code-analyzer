@@ -15,6 +15,6 @@ for root, dirnames, filenames in os.walk(os.path.dirname(os.path.abspath(__file_
 			lines += len(open('/'.join([root, filename])).readlines());
 			files += 1
 
-print "Linii kodu:", lines
-print "Łącznie plików:", files
-print "Czas sprawdzenia: ", ''.join([str(time.time() - t1)[:6], "s"])
+print 'Linii kodu:', lines
+print 'Łącznie plików:', files
+print 'Czas sprawdzenia:', ''.join([str(time.time() - t1)[:6], 's'])
