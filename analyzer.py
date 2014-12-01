@@ -1,9 +1,11 @@
 #-*-coding: utf-8-*-
 #!/usr/bin/python
-import sys, os, os.path
+import sys, os, os.path, time
 
 # typy plików do sprawdzenie
 exts = ('cpp', 'h', 'py')
+
+t1 = time.time()
 
 lines = 0
 files = 0
@@ -15,3 +17,4 @@ for root, dirnames, filenames in os.walk(os.path.dirname(os.path.abspath(__file_
 
 print "Linii kodu:", lines
 print "Łącznie plików:", files
+print "Czas sprawdzenia: ", ''.join([str(time.time() - t1)[:6], "s"])
