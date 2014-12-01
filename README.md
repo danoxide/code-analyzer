@@ -1,9 +1,12 @@
 Code Analyzer
 =============
 
-Liczy ile dany projekt ma linii kodu.
+Ten mały program liczy ile jest linii kodu w projekcie. Skrypt musi znajdować siœ w katalogu głównym projektu.
 
 Jak używać?
 -----------
 
-Aby uruchomić program otwórz terminal, a następnie wklej tę linijkę: `python analyzer.py php-project.zip`. Po zakończonej operacji zostaną wyświetlone wyniki.
+1. Otwórz terminal
+2. Wklej tę linijkę: `python analyzer.py`
+3. Po zakończonej operacji zostaną wyświetlone wyniki
+
