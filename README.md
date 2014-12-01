@@ -1,7 +1,7 @@
 Code Analyzer
 =============
 
-Ten mały program liczy ile jest linii kodu w projekcie. Skrypt musi znajdować siœ w katalogu głównym projektu.
+Ten mały program liczy ile jest linii kodu w projekcie. Skrypt musi znajdować się w katalogu głównym projektu.
 
 Jak używać?
 -----------
