@@ -6,6 +6,4 @@ Liczy ile dany projekt ma linii kodu.
 Jak używać?
 -----------
 
-```
-	python analyzer.py php-project.zip
-```
+Aby uruchomić program otwórz terminal, a następnie wklej tę linijkę: `python analyzer.py php-project.zip`. Po zakończonej operacji zostaną wyświetlone wyniki.
