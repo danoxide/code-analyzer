@@ -7,6 +7,10 @@ exts = ('cpp', 'h', 'py')
 
 t1 = time.time()
 
+# Definiowanie własnych rozszerzeń
+if sys.argv.count('--extensions') and sys.argv[1] == '--extensions':
+	exts += tuple(sys.argv[2:])
+
 lines = 0
 files = 0
 for root, dirnames, filenames in os.walk(os.path.dirname(os.path.abspath(__file__))):
