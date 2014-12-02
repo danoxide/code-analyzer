@@ -5,13 +5,13 @@ Ten mały program liczy ile jest linii kodu w projekcie. Skrypt musi znajdować 
 
 Aktualizacje
 ------------
-#### 2 grudnia 2014
+##### 2 grudnia 2014
 Możliwość dodawania własnych rozszerzeń dzięki argumentowi `--extensions`, gdzie jako kolejne parametry podajemy rozszerzenia plików, np.
 ```
 python analyzer.py --extensions html css js php
 ```
 
-#### 1 grudnia 2014
+##### 1 grudnia 2014
 Dodano wyświetlanie większej ilości danych (ilość otworzonych i sprawdzonych plików oraz czas w jakim wykonano całą operację). Teraz wyniki prezentowane są w postaci:
 ```
 Linii kodu: 561
