@@ -1,7 +1,8 @@
 Code Analyzer
 =============
 
-Ten mały program liczy ile jest linii kodu w projekcie. Skrypt musi znajdować się w katalogu głównym projektu.
+Code Analyzer to malutki program napisany w Pythonie, który informuje programustę ile linii kodu napisał, w ilu plikach oraz w jakim czasie wykonano całą operację sprawdzania.
+Aby zacząć korzystać z narzędzia wystarczy, że skopiujesz plik do katalogu projektu i uruchomisz go w konsoli.
 
 Aktualizacje
 ------------
