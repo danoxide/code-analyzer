@@ -8,7 +8,7 @@ Aktualizacje
 ##### 2 grudnia 2014
 Możliwość dodawania własnych rozszerzeń dzięki argumentowi `--extensions`, gdzie jako kolejne parametry podajemy rozszerzenia plików, np.
 ```
-python analyzer.py --extensions html css js php
+$ python analyzer.py --extensions html css js php
 ```
 
 ##### 1 grudnia 2014
